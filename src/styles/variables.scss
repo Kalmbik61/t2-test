@@ -1,0 +1,62 @@
+$color-blue: #1698d9;
+$color-pink: #d91667;
+$color-gray: #b3b3b3;
+
+$color-blue-hover: #2ea8e6;
+$color-pink-hover: #e62e7a;
+$color-gray-hover: #b3b3b3;
+
+$color-selected: #d91667;
+$color-selected-hover: #e52e7a;
+
+$color-disabled-border: #b3b3b3;
+$color-disabled-badge: #b3b3b3;
+
+$text-black: #000000;
+$text-white: #ffffff;
+$text-gray: #666666;
+$text-disabled: #ffff66;
+$text-link: #5ebfdc;
+$text-link-hover: #2ea8e6;
+
+$bg-dark: #222222;
+$bg-card: linear-gradient(135deg, #f2f2f2 0%, #ffffff 100%);
+
+$bg-dark: #1a1a1a;
+$bg-pattern: rgba(0, 0, 0, 0.3);
+
+$card-bg: #f2f2f2;
+
+$font-family: "Exo 2.0", sans-serif;
+
+$font-size-h1: 36px;
+$font-size-title: 48px;
+$font-size-subtitle: 24px;
+$font-size-tagline: 16px;
+$font-size-description: 13px;
+$font-size-link: 13px;
+$font-size-weight: 42px;
+$font-size-unit: 21px;
+
+$font-weight-thin: 100;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$card-width: 320px;
+$card-height: 480px;
+$card-border-radius: 12px;
+$card-border-width: 4px;
+$card-corner-size: 47px;
+
+$badge-size: 80px;
+$badge-bottom: 12px;
+$badge-right: 12px;
+
+$gap-desktop: 80px;
+$gap-tablet: 40px;
+$gap-mobile: 80px;
+
+$breakpoint-tablet: 1024px;
+$breakpoint-mobile: 768px;
+
+$transition-default: all 0.3s ease;
