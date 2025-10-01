@@ -30,7 +30,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         Чего сидишь? Порадуй котэ,{" "}
         <button
           className={styles.buyButton}
-          onClick={handleClick}
+          onClick={(e) => {
+            e.stopPropagation();
+            handleClick();
+          }}
           type="button"
           aria-label={`Купить ${taste}`}
         >
